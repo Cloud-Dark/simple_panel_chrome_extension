@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Panel Keren Saya",
+  "version": "1.0",
+  "description": "Ekstensi panel samping menggunakan JavaScript",
+  "permissions": ["sidePanel"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "panel.html"
+  }
+}
